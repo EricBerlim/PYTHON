@@ -1,0 +1,16 @@
+----------------------------------------------------
+PYTHON:
+----------------------------------------------------
+
+DEFINIR VARIÁVEIS:
+
+É possível atribuir uma string ou um valor:
+nome = input('Qual o seu nome? ')
+
+Aparecerá o que está no input e deverá digitar:
+Qual o seu nome? Éric
+
+Ao digitar 'nome', a saída será o que foi digitado.
+
+print(nome, idade, peso)
+----------------------------------------------------
