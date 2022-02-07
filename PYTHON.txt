@@ -2,7 +2,9 @@
 PYTHON:
 ----------------------------------------------------
 
-DEFINIR VARIÁVEIS:
+IDLE PYTHON:
+
+É um console para Python.
 
 É possível atribuir uma string ou um valor:
 nome = input('Qual o seu nome? ')
@@ -13,4 +15,21 @@ Qual o seu nome? Éric
 Ao digitar 'nome', a saída será o que foi digitado.
 
 print(nome, idade, peso)
+
+----------------------------------------------------
+PYCHARM:
+
+New Project -> Botão Direito -> New Python File
+
+Aumentar fonte: File -> Settings -> Editor -> Fonts
+
+msg = 'Olá, mundo!'
+print(msg)
+
+Para formatar o que está entre parênteses e adicionar dados, deve-se inserir {}.format(var):
+
+nome = input('Qual o seu nome? ')
+print('É um prazer te conhecer, {}!'.format(nome))
+
+
 ----------------------------------------------------
