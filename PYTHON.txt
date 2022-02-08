@@ -1,6 +1,6 @@
-----------------------------------------------------
+--------------------------------------------------
 PYTHON:
-----------------------------------------------------
+--------------------------------------------------
 
 IDLE PYTHON:
 
@@ -16,7 +16,7 @@ Ao digitar 'nome', a saída será o que foi digitado.
 
 print(nome, idade, peso)
 
-----------------------------------------------------
+--------------------------------------------------
 PYCHARM:
 
 New Project -> Botão Direito -> New Python File
@@ -31,5 +31,59 @@ Para formatar o que está entre parênteses e adicionar dados, deve-se inserir {
 nome = input('Qual o seu nome? ')
 print('É um prazer te conhecer, {}!'.format(nome))
 
+VERIFICAÇÕES:
 
-----------------------------------------------------
+a -> objeto
+isnumeric -> método
+
+a = input('Digite algo: ')
+print('O tipo primitivo desse valor é: ', type(a))
+print('Só tem espaços? ', a.isspace())
+print('É um número? ', a.isnumeric())
+print('É alfabético? ', a.isalpha())
+print('É alfanumérico? ', a.isalnum())
+print('Está em maiúsculas?', a.isupper())
+print('Está em minúsculas?', a.islower())
+print('Está em capitalizada?', a.istitle())
+
+--------------------------------------------------
+TIPOS PRIMITIVOS:
+
+int -> 7 -4 0 9875
+float -> 4.5 0.076 -15.223 7.0
+bool -> True False
+str -> 'caracteres' ''
+
+OPERADORES:
+
+
+
+
+
+--------------------------------------------------
+MÓDULOS:
+
+Servem para adicionar bibliotecas de funções e recursos. São inseridos por import e from/import.
+
+Para importar todas as bebidas:
+import bebida
+
+Para apenas um tipo:
+from café import
+
+import math
+	ceil -> arredonda pra cima
+	floor -> arredonda pra baixo
+	trunc -> não faz arredondamento
+	pow -> potenciação
+	sqrt -> raiz quadrada
+	factorial -> calcula fatorial
+
+from math import sqrt, ceil
+
+
+
+
+
+
+--------------------------------------------------
