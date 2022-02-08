@@ -54,7 +54,33 @@ float -> 4.5 0.076 -15.223 7.0
 bool -> True False
 str -> 'caracteres' ''
 
-OPERADORES:
+OPERADORES ARITMÉTICOS:
+
+** -> potenciação
+// -> resultado inteiro da divisão
+% -> resto da divisão
+
+ORDEM de PRECEDÊNCIA:
+
+() -> ** -> * / // % -> + -
+
+--------------------------------------------------
+FORMATAÇÃO:
+
+Limitar o número de casas decimais, por exemplo:
+
+n = int(input('Digite um número: '))
+
+print('A raiz quadrada de {} é {:.2f}.'.format(n, (n**(1/2))))
+
+Limitou para 2 casas decimais flutuantes: {:.2f}
+
+
+
+
+
+
+
 
 
 
