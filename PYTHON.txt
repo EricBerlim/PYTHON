@@ -75,21 +75,10 @@ print('A raiz quadrada de {} é {:.2f}.'.format(n, (n**(1/2))))
 
 Limitou para 2 casas decimais flutuantes: {:.2f}
 
-
-
-
-
-
-
-
-
-
-
-
 --------------------------------------------------
 MÓDULOS:
 
-Servem para adicionar bibliotecas de funções e recursos. São inseridos por import e from/import.
+Servem para adicionar bibliotecas de funções e recursos. São inseridos por import e from import.
 
 Para importar todas as bebidas:
 import bebida
@@ -97,7 +86,7 @@ import bebida
 Para apenas um tipo:
 from café import
 
-import math
+import math:
 	ceil -> arredonda pra cima
 	floor -> arredonda pra baixo
 	trunc -> não faz arredondamento
@@ -105,11 +94,30 @@ import math
 	sqrt -> raiz quadrada
 	factorial -> calcula fatorial
 
-from math import sqrt, ceil
+Exemplo:
 
+import math
+num = int(input('Digite um número: '))
+raiz = math.sqrt(num)
+print('A raiz de {} é {}'.format(num, raiz))
 
+Para arredondar: format(num, math.ceil(raiz))
 
+Exemplo:
 
+Para gerar números aleatórios.
 
+import random
+num = random.randint(1, 10)
+print(num)
+
+Nesse caso irá gerar números entre 1 e 10.
+
+--------------------------------------------------
+PYPI - BAIXAR MÓDULOS´ EXTERNOS:
+
+Digitar import 'emoji' -> depois clicar na lâmpada
+
+print(emoji.emojize(':earth_americas:', use_aliases=True))
 
 --------------------------------------------------
