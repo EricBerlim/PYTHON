@@ -147,12 +147,17 @@ print('A ordem será {}!')
 print(lista)
 
 --------------------------------------------------
-REPRODZIR MÚSICA:
+REPRODUZIR MÚSICA:
 
 Existem vários módulos para incluir músicas.
 Um dos mais famosos é o 'pygame'.
 
 from playsound import playsound
 playsound('ex021.mp3')
+
+--------------------------------------------------
+AULA 09
+
+
 
 --------------------------------------------------
